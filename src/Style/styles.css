@@ -1,0 +1,75 @@
+/* styles.css */
+header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .business-info {
+    padding: 20px;
+    text-align: center;
+  }
+  /* .images-container {
+    display: flex; 
+    overflow-x: auto;
+    padding: 10px;
+    gap:10px;
+    
+  }
+  
+  
+  .business-image {
+    height: 150px;
+    object-fit: cover;
+
+  } */
+
+  .business-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .business-info .verified {
+    color: green;
+  }
+  
+  .reviews-list {
+    padding: 50px;
+    display: flex;
+    margin: 20px;
+  }
+  
+  .review {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 10px 0;
+  }
+  
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border:1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .brand-icon {
+    width: 40px;
+    height: auto;
+  }

@@ -1,0 +1,83 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+  }
+
+
+  .col-md-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+    padding: 15px;
+  }
+  
+
+  
+
+  .reviews-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .reviews-header {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Style for the Review component */
+  .review {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .review-name {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .review-text {
+    font-size: 14px;
+  }
+  
+  /* Style for the Brands and Service components */
+  .brands,
+  .service {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }

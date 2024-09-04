@@ -1,0 +1,51 @@
+.container {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col-md-8 {
+    flex: 1;
+    padding: 10px;
+}
+
+.col-md-4 {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Que {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.txt {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.placeholder {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 20px;
+    background-color: #fff;
+    color: #211e1e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.col-md-2 img {
+    max-width: 100%;
+    height: auto;
+}

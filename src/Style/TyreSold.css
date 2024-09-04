@@ -1,0 +1,82 @@
+
+.tyre-sold-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h4 {
+  font-size: 1.5rem;
+  color: #343a40;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+ 
+  padding-bottom: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-style: italic;
+    font-weight: 400;
+
+}
+
+h4:hover{
+  color: #0056b3;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  
+}
+
+
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-section .advanced-link {
+  align-self: center;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.dropdowns-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+.MDBDropdownToggle {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .filter-section {
+    justify-content: flex-start;
+  }
+
+  .dropdowns-section {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  .filter-section {
+    flex-direction: column;
+  }
+
+  .dropdowns-section {
+    flex-direction: column;
+  }
+}

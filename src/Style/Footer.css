@@ -1,0 +1,19 @@
+.mb-4 mb-md-0{
+  width: 100%;
+}
+.list-unstyled{
+  font-size: 20px;
+  margin: 10px;
+  font-style: italic;
+}
+.text-dark{
+  padding: 5px;
+  margin: 5px;
+  background-color: beige;
+  
+}
+
+.text-muted{
+  font-style: italic;
+}
+

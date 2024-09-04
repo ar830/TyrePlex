@@ -1,0 +1,51 @@
+.container {
+    max-width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 40px;
+    width: 60px;
+    font-size: 25px;
+    color: turquoise;
+    background-color: aliceblue;
+    
+  }
+
+  
+ .payment-option:hover{
+    color: gold;
+  }
+ .payment-option:active{
+    color: red;
+    transform: scale(1.1);
+  }  
+  .payment-option{
+    font-size: 30px;
+    font-style: oblique;
+    margin: 12px;
+    margin-left: 32px;
+
+  }
+  .check-sign {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    color: green;
+    padding-right: 30px;
+  }
+  
+  .check-sign:before {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }

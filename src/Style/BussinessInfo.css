@@ -1,0 +1,117 @@
+
+.business-info-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+
+.text-section {
+  padding: 20px;
+}
+
+.text-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text-section .verified {
+  font-size: 14px;
+  font-weight: 600;
+  color: #28a745; 
+  background-color: #e9f7ef; 
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.text-section p {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.text-section button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.text-section button:hover {
+  background-color: #0056b3; 
+}
+
+
+.mdb-carousel img {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.mdb-carousel .carousel-item {
+  max-height: 300px; }
+
+.mdb-carousel .carousel-indicators [data-bs-target] {
+  background-color: #007bff; 
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .business-info-container {
+    padding: 15px;
+  }
+
+  .text-section {
+    padding: 15px;
+  }
+
+  .text-section h2 {
+    font-size: 20px;
+  }
+
+  .text-section p {
+    font-size: 14px;
+  }
+
+  .text-section button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .mdb-carousel img {
+    max-height: 200px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .business-info-container {
+    padding: 10px;
+  }
+
+  .text-section h2 {
+    font-size: 18px;
+  }
+
+  .text-section p {
+    font-size: 13px;
+  }
+
+  .text-section button {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .mdb-carousel img {
+    max-height: 150px; 
+  }
+}
